@@ -26,7 +26,7 @@ const AccordionItem = ({ titles, content }) => {
         </div>
 
         <svg
-          className={`w-4 h-4 transition-transform transform ${
+          className={`w-4 h-4 transition-transform transform stroke-light-green sm:stroke-white ${
             isOpen ? "rotate-180" : ""
           }`}
           fill="none"
@@ -44,9 +44,9 @@ const AccordionItem = ({ titles, content }) => {
       </button>
       {isOpen && (
         <div className="p-4 bg-black rounded-b-3xl text-[var(--ac-text)]">
-          <ul className="list-image-portal list-inside">
+          <ul className="list-image-portalmini list-inside sm:list-image-portal">
             {content.map((item, index) => (
-              <li key={index} className="mb-2">
+              <li key={index} className="mb-2 ">
                 <span className={item.part1.className}>{item.part1.text}</span>
                 <span className={item.part2.className}>{item.part2.text}</span>
               </li>

@@ -18,7 +18,11 @@ export default {
         "9xl": "120rem",
       },
       listStyleImage: {
-        portal: 'url("../public/portal.png")',
+        portal: 'url("../public/portal.svg")',
+        portalmini: 'url("../public/portalmini.svg")',
+      },
+      backgroundImage: {
+        footerbg: "url('../public/footer-img.png')",
       },
     },
   },
