@@ -11,6 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "light-green": "#d5ff3f",
+      },
+      maxWidth: {
+        "8xl": "96rem",
+        "9xl": "120rem",
+      },
+      listStyleImage: {
+        portal: 'url("../public/portal.png")',
       },
     },
   },
