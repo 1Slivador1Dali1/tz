@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "light-green": "#d5ff3f",
+        breadcr: "#888888",
       },
       maxWidth: {
         "8xl": "96rem",

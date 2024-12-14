@@ -160,41 +160,8 @@ export default function Home() {
       <div className="min-w-28 max-w-9xl text bg-light-green ps-16 mr-20 py-3 sm:py-6 text-2xl sm:text-4xl text-black font-bold rounded-r-full mb-10 lg:ps-72 md:ps-40 sm:ps-32 sm:mr-40">
         TITLE
       </div>
+
       <main className="max-w-7xl mx-auto w-2/3  mb-8 flex flex-col gap-6">
-        {/* <div className="">
-            <details className="bg-black py-3 px-7 rounded-3xl text-2xl">
-              <summary className="flex items-center justify-between gap-4">
-                <h2 className="font-bold flex gap-4">
-                  <span className="text-light-green">01</span>Title
-                </h2>
-
-                <svg
-                  data-accordion-icon
-                  className="w-3 h-3 rotate-180 shrink-0 active:rotate-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5 5 1 1 5"
-                  />
-                </svg>
-              </summary>
-              <ul className="flex flex-col gap-9">
-                <li>fd</li>
-                <li>dw</li>
-                <li>dw</li>
-                <li>wdw</li>
-                <li>wdw</li>
-              </ul>
-            </details>
-          </div> */}
-
         <div className="min-h-auto bg-transparent">
           <h1 className="text-2xl font-bold ml-4 mb-4 text-[var(--ac-text)]">
             ЭТАПЫ
