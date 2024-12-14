@@ -21,6 +21,10 @@ export default {
       listStyleImage: {
         portal: 'url("../public/portal.svg")',
         portalmini: 'url("../public/portalmini.svg")',
+        tel: 'url("../public/tel.svg")',
+        mail: 'url("../public/mail.svg")',
+        wp: 'url("../public/watp.svg")',
+        tg: 'url("../public/tg.svg")',
       },
       backgroundImage: {
         footerbg: "url('../public/footer-img.png')",

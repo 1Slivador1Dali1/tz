@@ -98,7 +98,7 @@ export default function About() {
         height={405}
       />
 
-      <div className="max-w-5xl mx-auto w-2/3 flex flex-col justify-center mb-8 gap-7 px-10 py-7 md:gap-14 lg:gap-20 sm:px-[70px] sm:py-[40px] bg-black rounded-[70px]">
+      <div className="max-w-5xl mx-auto w-5/6 sm:w-2/3 flex flex-col justify-center mb-8 gap-7 px-10 py-7 md:gap-14 lg:gap-20 sm:px-[70px] sm:py-[40px] bg-black rounded-[70px]">
         <p className="text-base font-bold md:text-3xl uppercase">
           Обращаясь к нам<br></br> вы получаете:
         </p>
